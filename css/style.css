@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.top_img {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.box{
+    width:345px;
+    height:215px;
+    padding:30px;
+    margin:0;
+    background:#ddd;
+    box-sizing: border-box;
+  }
+  .scroll{
+    overflow:scroll;
+  }
+  .scrollx{
+    overflow:hidden;
+    overflow-x:scroll;
+  }
+  .scrolly{
+    overflow:hidden;
+    overflow-y:scroll;
+  }
+  p{
+   white-space:nowrap; 
+  }
+.sec1 p{
+  text-align: center;
+  padding: 0px 10px;
+  font-size: 90%;
+}
+.sec2 ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 95%;
+}
+.sec2 ul li{
+  padding: 5px 0;
+  margin: 5px auto;
+  background-color: rgb(202, 28, 28);
+  color: #fff;
+}
