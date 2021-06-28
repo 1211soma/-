@@ -1,11 +1,50 @@
 body{
     margin: 0;
+    padding: 0;
 }
 .top_img {
     margin: 0 auto;
     padding: 0;
     width: 100%;
 }
+.key_text{
+  background: rgb(235, 10, 10);
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.key_text h1{
+  padding: 10px 0 0 5px;
+}
+.key_text p{
+  padding: 0px 0px 10px 5px;
+}
+
+
+
+#top_localNav{
+  margin: 0 auto;
+  background: rgb(44, 41, 41);
+  padding: 45px 22px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+#top_localNav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: space-between; /*均等な余白でナビを並べてくれる*/
+}
+#top_localNav ul li{
+  background: rgb(255, 176, 30);
+  border-radius: 20px;
+}
+#top_localNav ul li a{
+
+}
+
+
 .box{
     width:345px;
     height:215px;
@@ -58,17 +97,34 @@ body{
   max-width: 225px;
   text-align: center;
 }
+.sec4_btn p{
+  margin-bottom: 100px;
+}
 
 
 
 /*----------footerエリア　ここから-------------*/
+.grobal_nav{
+  margin: 0 auto;
+}
 footer ul{
   margin: 0 auto;
   text-align: center;
   list-style-type: none;
 
 }
+footer ul li{
+  background: rgb(44, 41, 41);
+  padding: 10px;
+  border-bottom: 1px solid rgb(107, 106, 106);
+  width: 100%;
+}
+footer ul li:last-child{
+  padding: 30px 10px 10px 10px;
+  color: #fff;
+}
 footer ul a{
   text-decoration: none;
+  color: #fff;
 }
 
