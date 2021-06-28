@@ -2,6 +2,9 @@ body{
     margin: 0 auto;
     padding: 0;
 }
+@media screen and(min-width: 784px){}
+  
+
 #H3 { /* H3 は親要素である*/
   border-bottom: 2px solid red;
   margin-left: 10px;
@@ -50,10 +53,12 @@ img {
   justify-content: space-between; /*均等な余白でナビを並べてくれる*/
 }
 #top_localNav ul li{
-  background: rgb(255, 176, 30);
+  background: rgb(245, 168, 26) url(../img/border.png) no-repeat 90%;
   border-radius: 20px;
   padding: 10px;
   margin: 20px 0; 
+  box-shadow:4px 4px 0 #fff;
+
 }
 #top_localNav ul li a{
   text-decoration: none;
@@ -94,20 +99,20 @@ img {
 
 
 
-.sec1 p{
-  text-align: center;
+.sec1 p,.sec2 p,
+.sec3 p,.sec4 p{
   padding: 0px 10px;
   font-size: 90%;
 }
-.sec2 ul {
+.sec2 .the_goal {
   list-style-type: none;
   text-align: center;
-  margin: 0 auto;
+  padding: 0 20px;
   font-size: 95%;
 }
-.sec2 ul li{
+.sec2 .the_goal p{
   padding: 5px 0;
-  margin: 5px auto;
+  margin: 10px auto;
   background-color: rgb(202, 28, 28);
   color: #fff;
   max-width: 330px;
@@ -120,7 +125,7 @@ img {
   color: #fff;
   font-size: 22px;
   background: rgb(255, 176, 30);
-  border-radius: 20px;
+  border-radius: 30px;
   max-width: 225px;
   text-align: center;
 }
@@ -150,8 +155,14 @@ footer ul li:last-child{
   padding: 30px 10px 10px 10px;
   color: #fff;
 }
+.yellow{
+  color: rgb(255, 176, 30);
+}
 footer ul a{
   text-decoration: none;
   color: #fff;
+}
+.y_text a{
+  color: rgb(255, 176, 30);
 }
 
