@@ -2,9 +2,10 @@ body{
     margin: 0 auto;
     padding: 0;
 }
-#H3 {
+#H3 { /* H3 は親要素である*/
   border-bottom: 2px solid red;
-  padding-left: 10px;
+  margin-left: 10px;
+  width: 200px;/*赤い線の指定*/
 }
 
 img {
