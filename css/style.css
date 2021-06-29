@@ -44,6 +44,8 @@ img {
   padding: 45px 15px;
   box-sizing: border-box;
   max-width: 100%;
+  position: relative;
+  top: -47px;
 }
 #top_localNav ul{
   list-style: none;
@@ -56,7 +58,7 @@ img {
   background: rgb(245, 168, 26) url(../img/border.png) no-repeat 90%;
   border-radius: 20px;
   padding: 10px;
-  margin: 20px 0; 
+  margin: 30px 0; 
   box-shadow:4px 4px 0 #fff;
 
 }
@@ -75,6 +77,9 @@ img {
     margin:0;
     background:#ddd;
     box-sizing: border-box;
+    line-height: 35px;
+    position: relative;
+    top: -47px;
   }
   .news h2{
     color: red;
@@ -97,6 +102,10 @@ img {
    white-space:nowrap; 
   }
 
+.main_img{
+  position: relative;
+  top: -47px;
+}
 
 
 .sec1 p,.sec2 p,
@@ -138,7 +147,7 @@ img {
 /*----------footerエリア　ここから-------------*/
 .grobal_nav{
   position: relative;
-  left: -30px;
+  left: -40px;
 }
 footer ul{
   text-align: center;
@@ -149,7 +158,7 @@ footer ul li{
   background: rgb(44, 41, 41);
   padding: 10px;
   border-bottom: 1px solid rgb(107, 106, 106);
-  width: 100%;
+  width: 110%;   /*数値の変更予定あり*/
 }
 footer ul li:last-child{
   padding: 30px 10px 10px 10px;
