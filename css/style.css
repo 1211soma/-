@@ -50,20 +50,23 @@ footer ul a{
 
 
 /*-------キービジュアルここから-------------*/
+
+/* ---header部分ここから--- */
 header {
   background: #fff;
+}
+.top_title {
+  font-size: 85%;
 }
 .title{ /*headerの余白　消せる*/
   margin: 0;
   background: #fff;
   padding: 13px 0 10px 13px;
 }
-.top_title {
-  font-size: 85%;
-}
+/* ---header部分ここまで--- */
+
 .top_img {
     margin: 0 auto;
-    text-align: center;
 }
 .key_text{
   background: rgb(235, 10, 10);
@@ -154,23 +157,23 @@ header {
 }
 
 /*　-----------------Q&A　ページここから-------------------*/
-section .question_title{
+.querytitle{
   border-left: 7px solid red;
   padding-left: 10px;
   margin: 10px;
 }
 
-#textbox_reader {
+#chairman{
   background: #ffb300;
   max-width: 95%;
   margin: 0 10px;
   border-radius: 20px;
 }
-#textbox_reader h3 {
+#chairman h3{
   padding: 10px 0 0 10px;
   color: #fff;
 }
-#textbox_reader p{
+#chairman p{
   padding-left: 10px;
   padding-bottom: 10px;
 }
@@ -193,17 +196,17 @@ section .question_title{
   left: 330px;
 }
 
-#textbox_sub{
+#vice{
   background: #2eedfc;
   max-width: 95%;
   margin: 0 10px;
   border-radius: 20px;
 }
-#textbox_sub h3 {
+#vice h3 {
   padding: 10px 0 0 10px;
   color: #fff;
 }
-#textbox_sub p{
+#vice p{
   padding-left: 10px;
   padding-bottom: 10px;
 }
