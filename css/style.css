@@ -116,20 +116,80 @@ ul {
   font-size: 90%;
 }
 
-/*　Q&A　ページ*/
+/*　-----------------Q&A　ページ-------------------*/
 section .question_title{
   border-left: 7px solid red;
   padding-left: 10px;
   margin: 10px;
 }
-#text_box h3{
-  width: 90%;
-  margin: 20px 20px 0;
+
+#textbox_reader {
+  background: #ffb300;
+  max-width: 95%;
+  margin: 0 10px;
+  border-radius: 20px;
 }
-#text_box p{
-  margin-left: 20px;
-  margin-top: 10px;
+#textbox_reader h3 {
+  padding: 10px 0 0 10px;
+  color: #fff;
 }
+#textbox_reader p{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.triangle {
+  width: 10%;
+  position: relative;
+  top: -34px;
+  left: 330px;
+}
+.triangle2 {
+  width: 10%;
+  position: relative;
+  top: -34px;
+  right: -30px;
+}
+.triangle3 {
+  width: 10%;
+  position: relative;
+  top: -34px;
+  left: 330px;
+}
+
+#textbox_sub{
+  background: #2eedfc;
+  max-width: 95%;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+#textbox_sub h3 {
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+#textbox_sub p{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#textbox_other{
+  background:#b3b3b3;
+  max-width: 95%;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+#textbox_other h3 {
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+#textbox_other p{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+
 
 #H3 { /* H3 は親要素である*/
   border-bottom: 2px solid red;
