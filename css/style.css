@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 
 
 
@@ -49,11 +49,20 @@ footer ul a{
 
 
 
-/*-------キービジュアルここまで-------------*/
+/*-------キービジュアルここから-------------*/
+header {
+  background: #fff;
+}
+.title{ /*headerの余白　消せる*/
+  margin: 0;
+  background: #fff;
+  padding: 13px 0 10px 13px;
+}
+.top_title {
+  font-size: 85%;
+}
 .top_img {
     margin: 0 auto;
-    padding: 0;
-    width: 100%;
     text-align: center;
 }
 .key_text{
@@ -68,17 +77,17 @@ footer ul a{
 .key_text p{
   padding: 0px 0px 20px 10px;
 }
+.br-sp{
+  display: block;
+}
 /*----------キービジュアルここまで-----------*/
 
-/*------------header 部分ここから----------*/
+/*------------トップページ　header 部分ここから----------*/
+
 #top_localNav{
-  margin: 0 auto;
+  margin: -46px auto;
   background: rgb(44, 41, 41);
   padding: 45px 15px;
-  box-sizing: border-box;
-  max-width: 100%;
-  position: relative;
-  top: -47px;
 }
 #top_localNav ul{
   list-style: none;
@@ -101,17 +110,12 @@ footer ul a{
   font-size: 120%;
   font-weight: bold;
 }
-
+/*-----newsの部分　ここから-------*/
 .news{
-    width:100%;
     height:225px;
     padding:10px;
-    margin:0;
     background:#ddd;
-    box-sizing: border-box;
     line-height: 35px;
-    position: relative;
-    top: -47px;
   }
   .news h2{
     color: red;
@@ -132,7 +136,7 @@ footer ul a{
     overflow-y:scroll;
   }
 
-  
+/* -----news部分ここまで------ */
 
 
 .main_img{
@@ -253,7 +257,6 @@ section .question_title{
   width: 200px;/*赤い線の指定*/
 }
 .sec2 .the_goal {
-  list-style-type: none;
   text-align: center;
   padding: 0 20px;
   font-size: 95%;
@@ -271,10 +274,11 @@ section .question_title{
   padding: 10px 5px;
   margin: 5px auto;
   color: #fff;
-  font-size: 22px;
+  /* かつては　22px　 */
+  font-size: 140%; 
   background: rgb(255, 176, 30);
   border-radius: 30px;
-  max-width: 225px;
+  max-width: 75%;
   text-align: center;
 }
 .sec4_btn p{
