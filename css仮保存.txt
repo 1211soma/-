@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+
+
+@media screen and (max-width: 650px){	/*スマートフォン用*/
+
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  /*----------footerエリア　ここから-------------*/
+.grobal_nav{
+  margin: 0 auto;
+}
+footer ul{
+  text-align: center;
+  list-style-type: none;
+}
+footer ul li{
+  background: rgb(44, 41, 41);
+  padding: 15px;
+  border-bottom: 1px solid rgb(107, 106, 106);
+   /*数値の変更予定あり*/
+   font-size: 130%;
+}
+footer ul li:last-child{
+  padding: 50px 10px 10px 10px;
+  color: #fff;
+}
+footer ul a{
+  text-decoration: none;
+  color: #fff;
+}
+.y_text a{
+  color: rgb(255, 176, 30);
+}
+/*---------------footer ここまで------------------*/
+
+
+
+
+/*-------キービジュアルここから-------------*/
+
+/* ---header部分ここから--- */
+header {
+  background: #fff;
+}
+.top_title {
+  font-size: 85%;
+}
+.title{ /*headerの余白　消せる*/
+  margin: 0;
+  background: #fff;
+  padding: 13px 0 10px 13px;
+}
+/* ---header部分ここまで--- */
+
+.top_img {
+    margin: 0 auto;
+}
+.key_text{
+  background: rgb(235, 10, 10);
+  color: #fff;
+  position: relative;
+  top: -30px
+}
+.key_text h1{
+  padding: 20px 0 0 10px;
+}
+.key_text p{
+  padding: 0px 0px 20px 10px;
+}
+.br-sp{
+  display: block;
+}
+/*----------キービジュアルここまで-----------*/
+
+/*------------トップページ　header 部分ここから----------*/
+
+#top_localNav{
+  margin: -46px auto;
+  background: rgb(44, 41, 41);
+  padding: 45px 15px;
+}
+#top_localNav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: space-between; /*均等な余白でナビを並べてくれる*/
+}
+#top_localNav ul li{
+  background: rgb(245, 168, 26) url(../img/border.png) no-repeat 90%;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px 0; 
+  box-shadow:4px 4px 0 #fff;
+
+}
+#top_localNav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 120%;
+  font-weight: bold;
+}
+/*-----newsの部分　ここから-------*/
+.news{
+    height:225px;
+    padding:10px;
+    background:#ddd;
+    line-height: 35px;
+  }
+  .news h2{
+    color: red;
+  }
+  .news p{
+    font-size: 80%;
+    white-space:nowrap; 
+  }
+  .box{
+    overflow:scroll;
+  }
+  .boxx{
+    overflow:hidden;
+    overflow-x:scroll;
+  }
+  .boxy{
+    overflow:hidden;
+    overflow-y:scroll;
+  }
+
+/* -----news部分ここまで------ */
+
+
+.main_img{
+  position: relative;
+  top: -47px;
+}
+
+/*--------------header部分ここまで-----------------*/
+
+
+.sec1 p,.sec2 p,
+.sec3 p,.sec4 p{
+  padding: 0px 10px;
+  font-size: 90%;
+}
+
+/*　-----------------Q&A　ページここから-------------------*/
+.querytitle{
+  border-left: 7px solid red;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+#chairman{
+  background: #ffb300;
+  max-width: 95%;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+#chairman h3{
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+#chairman p{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.triangle {
+  width: 10%;
+  position: relative;
+  top: -34px;
+  left: 330px;
+}
+.triangle2 {
+  width: 10%;
+  position: relative;
+  top: -34px;
+  right: -30px;
+}
+.triangle3 {
+  width: 10%;
+  position: relative;
+  top: -34px;
+  left: 330px;
+}
+
+#vice{
+  background: #2eedfc;
+  max-width: 95%;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+#vice h3 {
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+#vice p{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#textbox_other{
+  background:#b3b3b3;
+  max-width: 95%;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+#textbox_other h3 {
+  padding: 10px 0 0 10px;
+  color: #fff;
+}
+#textbox_other p{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.main-bottom_text{
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.main-bottom_text span{
+  color: #ffb300;
+}
+.form_btn p{
+  padding: 10px 5px;
+  margin: 5px auto;
+  color: #fff;
+  font-size: 22px;
+  background: #ffb300;
+  border-radius: 30px;
+  max-width: 225px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+/*　-----------------Q&A　ページここまで-------------------*/
+
+
+/* -------------------活動内容と実績　ページ----------------------*/
+
+
+
+
+
+#H3 { /* H3 は親要素である*/
+  border-bottom: 2px solid red;
+  margin-left: 10px;
+  width: 200px;/*赤い線の指定*/
+}
+.sec2 .the_goal {
+  text-align: center;
+  padding: 0 20px;
+  font-size: 95%;
+}
+.sec2 .the_goal p{
+  padding: 5px 0;
+  margin: 10px auto;
+  background-color: rgb(202, 28, 28);
+  color: #fff;
+  max-width: 330px;
+}
+.sec2_btn p,
+.sec3_btn p,
+.sec4_btn p{
+  padding: 10px 5px;
+  margin: 5px auto;
+  color: #fff;
+  /* かつては　22px　 */
+  font-size: 140%; 
+  background: rgb(255, 176, 30);
+  border-radius: 30px;
+  max-width: 75%;
+  text-align: center;
+}
+.sec4_btn p{
+  margin-bottom: 100px;
+}
+
+
+
+
+
+}
