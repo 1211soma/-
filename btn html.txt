@@ -1,0 +1,18 @@
+<dl class="content -typeQA1 js_acc1 open">
+                <dt class="title js_accTitle">
+		<span class="inner">柔軟剤はどう使えばいいの？</span>
+		</dt>
+                <dd class="detail js_accCnt" style="display: block;">
+                  <div class="inner">
+                    <div class="text_cnt1">
+                      <p>洗剤と柔軟剤が混ざると、お互いの効果を打ち消しあってしまいます。柔軟剤は、最後のすすぎの段階で使用しましょう。</p>
+                      <p>＜全自動洗濯機で柔軟剤を使用する場合＞<br>あらかじめ、柔軟剤専用の自動投入口に入れてから洗濯を始めると、最後のすすぎの時に自動で柔軟剤が投入されます。柔軟剤の使用量は、商品裏面の記載に従ってください。</p>
+                      <p>＜手洗いの場合＞<br>①すすぎが終わったら、もう1回洗い桶に水を汲みこんで、柔軟剤を商品裏面に記載の使用量※に従ってはかり取り、水に溶かします。約3分間洗濯物をひたします。<br>このときゆっくりかきまぜると一層効果的です。<br>②軽く脱水して干します。</p>
+                    </div>
+                    <ul class="list_noteA1 _fs12-10">
+                      <li class="item"><span class="mark">※</span>水30Lあたり10mlの柔軟剤の場合の使用量は、洗い桶（水10L）に対して3mlの柔軟剤を入れます。<br>水30Lあたり7mlの柔軟剤の場合の使用量は、洗い桶（水10L）に対して2mlの柔軟剤が目安となります。</li>
+                      <li class="item"><span class="mark">※</span>アロマリッチは、水30Lあたり10mlが目安になります。</li>
+                    </ul>
+                  </div>
+                </dd>
+              </dl>

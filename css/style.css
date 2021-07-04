@@ -1,11 +1,12 @@
 
 /*--------------------Q&A ページ　ここから-------------------*/
 
-.menu-wrap {
+/*--------プルダウンメニューここから-----------*/
+.current_event {
     width: 90%;
     margin: 0 auto;
 }
-.menu-wrap label {
+.current_event label {
     background-color: #e81818;
     color: #fff;
     display: block;
@@ -15,35 +16,94 @@
     border-top: 3px solid #ffb300;
     border-bottom: 3px solid #ffb300;
 }
-.menu-wrap input {
+.current_event input {
     display: none;
 }
-.menu-wrap ul {
+.current_event ul {
     background-color: #c3c3c3;
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.menu-wrap li {
+.current_event li {
     height: 0;
     padding-left: 30px;
     overflow: hidden;
     line-height: 3;
     transition: all 0.5s;
 }
-#acd-menu:checked~.acd-list li, #acd-menu2:checked~.acd-list2 li {
+#acd-menu_a1:checked~.acd-list_a1 li, #acd-menu_a2:checked~.acd-list_a2 li {
     height: 50px;
 }
-.menu-wrap label::after { /* css ボタンの部分*/
+.current_event label::after { /* css ボタンの部分*/
     display: inline-block;
-    content: '<<';
+    content: '＋';
+    font-size: 120%;
     color: white;
     padding-left: 10px;
 }
-.menu-wrap a {
+.current_event a {
     color: #fff;
     text-decoration: none;
 }
-.menu-wrap a:hover {
+.current_event a:hover {
     color: red;
 }
+
+/*-----------*/
+
+
+
+.past_event {
+    width: 90%;
+    margin: 0 auto;
+}
+.past_event label {
+    background-color: #e81818;
+    color: #fff;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    border-top: 3px solid #ffb300;
+    border-bottom: 3px solid #ffb300;
+}
+.past_event input {
+    display: none;
+}
+.past_event ul {
+    background-color: #c3c3c3;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.past_event li {
+    height: 0;
+    padding-left: 30px;
+    overflow: hidden;
+    line-height: 3;
+    transition: all 0.5s;
+}
+#acd-menu_b1:checked~.acd-list_b1 li, #acd-menu_b2:checked~.acd-list_b2 li,
+#acd-menu_b3:checked~.acd-list_b3 li{
+    height: 50px;
+}
+.past_event label::after { /* css ボタンの部分*/
+    display: inline-block;
+    content: '＋';
+    font-size: 120%;
+    color: white;
+    padding-left: 10px;
+}
+.past_event a {
+    color: #fff;
+    text-decoration: none;
+}
+.past_event a:hover {
+    color: red;
+}
+
+/*--------プルダウンメニューここまで-----------*/
+
+
+  
