@@ -135,7 +135,7 @@ img {
     width: 80%;
 }
 
-.top_section h2,.top_section p{
+.top_section h2,.top_section .item_body{
     margin-left: 10px;
 }
 #goal li{
@@ -357,7 +357,10 @@ img {
 
 /*----------お問い合わせフォーム------------*/
 form {
-    margin-left: 20px;
+    margin: 40px 0 20px 20px;
+}
+form p{
+    font-size: 90%;
 }
 h3 { /*タイトルと入力欄の余白ゼロにしてくれる*/
     margin: 0;
@@ -366,10 +369,56 @@ input {
     margin: 0 auto;
     width: 70%;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
+.example_text{
+    color: #707070;
+    text-align: right;
+    padding-right: 30px;
+    margin: -15px 0;
+}
+.example_text2{
+    color: #707070;
+    text-align: right;
+    padding-right: 30px;
+    margin: -15px 0;
+}
+.example_text3{
+    color: #707070;
+    text-align: right;
+    padding-right: 30px;
+    margin: -15px 0;
+}
+.example_text4{
+    color: #707070;
+    text-align: right;
+    padding-right: 30px;
+    margin: -15px 0 0 0;
+}
+.example_text5{
+    color: #707070;
+    text-align: right;
+    padding-right: 30px;
+    margin: -15px 0 0 0;
+}
+.example_text6{
+    color: #707070;
+    text-align: right;
+    padding-right: 30px;
+}
+
 textarea {
     margin-left: 20px;
+}
+
+.joining_btn{
+    background: #ffb300;
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 60%;
+    text-align: center;
 }
 /*----------お問い合わせフォームここまで-------------*/
 
