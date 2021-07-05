@@ -17,7 +17,7 @@ img {
 #key_text {
     background: #e81818;
     margin-top: -10px;
-    padding: 10px 10px;
+    padding: 30px 10px;
     color: #fff;
 }
 #key_text h1{
@@ -73,7 +73,7 @@ img {
 /* -------headerここまで------- */
 
 
-/* トップページ　ここから */
+/* ----------トップページ　ここから----------- */
 
 #top_link {
     text-align: center;
@@ -135,7 +135,7 @@ img {
     width: 80%;
 }
 
-.top_section h2,p{
+.top_section h2,.top_section p{
     margin-left: 10px;
 }
 #goal li{
@@ -146,12 +146,105 @@ img {
     margin: 20px auto;
     padding: 10px 0;
 }
+/* --------------------Q&Aページ　ここから------------------------ */
+/* --------------------Q&Aページ　ここまで------------------ */
+
+/* --------------活動内容と実績ページ　ここから--------------- */
+#year {
+    display: flex;
+}
+#year li {
+    background: #ffb300;
+    color: #fff;
+    border-radius: 20px;
+    list-style-type: none;
+    margin: 40px auto;
+    padding: 5px 20px;
+    text-align: center;
+}
+#someday {
+    background: #e81818;
+    padding: 3px 1px;
+    border-radius: 20px;
+    color: #fff;
+    margin: 10px 0 10px 10px;
+    text-align: center;
+    width: 30%;
+    font-size: 80%;
+}
+#event_date {
+    border-left: 7px solid #e81818;
+    padding: 10px 5px 10px;
+    margin: -5px 0 20px 10px;
+    line-height: 20px;
+}
+.event_text {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.paginate {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.paginate li a{
+    text-decoration: none;
+    color: #fff;
+}
+.paginate .before,.after{
+    list-style-type: none;
+    background: #ffb300;
+    margin: 0 auto;
+    padding: 10px 30px;
+    color: #fff;
+}
+.paginate .now_page{
+    list-style-type: none;
+    background: #ffb300;
+    margin: 0 auto;
+    padding: 10px 30px;
+    color: #fff;
+}
+#interest {
+    margin-left: 10px;
+}
+#end_ttl{
+    padding: 10px 0 0 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #e81818;
+    width: 80%;
+}
+.form_btn{
+    background: #ffb300;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    width: 90%;
+}
 
 
 
-/* トップページここまで */
 
-/*--------------------Q&A ページ　ここから-------------------*/
+
+/* ------------活動内容と実績ページ　ここまで---------------- */
+
+
+
+/*--------------------イベント・企画ページ　ここから-------------------*/
+#event_plan{
+    border-left: 7px solid #e81818;
+    padding: 10px 5px 10px;
+    margin: 20px 0 20px 10px;
+    line-height: 20px;
+}
+#end_text {
+    text-align: center;
+    margin: 50px auto 30px;
+    width: 80%;
+}
 
 /*--------プルダウンメニューここから-----------*/
 .current_event {
@@ -166,8 +259,7 @@ img {
     cursor: pointer;
     text-align: center;
     border: 2px solid #000;
-    border-bottom: none;
-    /* border-bottom: 3px solid #000; */
+    border-bottom: 1px solid #000;
 }
 .current_event input {
     display: none;
@@ -216,8 +308,8 @@ img {
     padding: 15px;
     cursor: pointer;
     text-align: center;
-    border-top: 2px solid #000;
-    border-bottom: none
+    border: 2px solid #000;
+    border-bottom: 1px solid #000;
 }
 .past_event input {
     display: none;
@@ -255,6 +347,12 @@ img {
     color: red;
 }
 /*--------プルダウンメニューここまで-----------*/
+
+/* ---------イベント・企画ページここまで----------- */
+
+
+
+
 
 
 /*----------お問い合わせフォーム------------*/
