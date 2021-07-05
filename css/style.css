@@ -184,6 +184,7 @@ img {
     overflow: hidden;
     line-height: 3;
     transition: all 0.5s;
+    color: #fff;
 }
 #acd-menu_a1:checked~.acd-list_a1 li, #acd-menu_a2:checked~.acd-list_a2 li {
     height: 50px;
@@ -233,6 +234,7 @@ img {
     overflow: hidden;
     line-height: 3;
     transition: all 0.5s;
+    color: #fff;
 }
 #acd-menu_b1:checked~.acd-list_b1 li, #acd-menu_b2:checked~.acd-list_b2 li,
 #acd-menu_b3:checked~.acd-list_b3 li{
