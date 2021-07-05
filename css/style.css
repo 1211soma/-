@@ -27,6 +27,48 @@ img {
     padding-left: 10px;
     font-size: 90%;
 }
+.btn {
+    background: #ffb300;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+}
+.grobal_nav{
+    margin: 0 auto;
+  }
+  footer ul{
+    text-align: center;
+    list-style-type: none;
+  }
+  footer ul li{
+    background: rgb(44, 41, 41);
+    padding: 15px;
+    border-bottom: 1px solid #c3c3c3;
+     /*数値の変更予定あり*/
+     font-size: 130%;
+  }
+  footer ul li:first-child{
+    margin-top: 100px;
+  }
+  footer ul li:last-child{
+    padding: 50px 10px 10px 10px;
+    color: #fff;
+    font-size: 80%;
+  }
+  footer ul a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .orange{
+    color: #ffb300;
+  }
+
+
+
+
 
 /* -------headerここまで------- */
 
@@ -96,6 +138,14 @@ img {
 .top_section h2,p{
     margin-left: 10px;
 }
+#goal li{
+    background: #e81818;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 0;
+}
 
 
 
@@ -115,8 +165,9 @@ img {
     padding: 15px;
     cursor: pointer;
     text-align: center;
-    border-top: 3px solid #ffb300;
-    border-bottom: 3px solid #ffb300;
+    border: 2px solid #000;
+    border-bottom: none;
+    /* border-bottom: 3px solid #000; */
 }
 .current_event input {
     display: none;
@@ -164,8 +215,8 @@ img {
     padding: 15px;
     cursor: pointer;
     text-align: center;
-    border-top: 3px solid #ffb300;
-    border-bottom: 3px solid #ffb300;
+    border-top: 2px solid #000;
+    border-bottom: none
 }
 .past_event input {
     display: none;
