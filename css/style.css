@@ -147,10 +147,6 @@ img {
     padding: 10px 0;
 }
 /* --------------------Q&Aページ　ここから------------------------ */
-
-
-
-
 .query {
     margin: 50px auto;
 }
@@ -163,24 +159,26 @@ img {
 .answer1,.answer2 {
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
+
+
 .answer1 {
     background: #ffb300;
     border-radius: 10px;
     padding: 10px;
+    position: relative;
+    z-index: 100;
 }
-.test img {
+.triangle1 {
+    margin-top: -10%;
+}
+.triangle1 img {
     width: 20%;
     position: relative;
     left: 80%;
-    top: -90px;
+    bottom: 70%;
+    z-index: 10;
 }
-
-
-
-
-
 
 
 
@@ -188,8 +186,19 @@ img {
     background: #2eedfc;
     border-radius: 10px;
     padding: 10px;
+    position: relative;
+    z-index: 100;
 }
-
+.triangle2 {
+    margin-top: -10%;
+}
+.triangle2 img {
+    width: 20%;
+    position: relative;
+    left: 5%;
+    bottom: 70%;
+    z-index: 10;
+}
 
 
 
