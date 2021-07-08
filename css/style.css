@@ -65,6 +65,11 @@ img {
   .orange{
     color: #ffb300;
   }
+  .end_text{
+      width: 90%;
+      margin: 0 auto;
+      font-size: 95%;
+  }
 
 
 
@@ -156,7 +161,7 @@ img {
     margin: -5px 0 20px 10px;
     line-height: 20px;
 }
-.answer1,.answer2 {
+.answer1,.answer2,.answer3{
     width: 90%;
     margin: 0 auto;
 }
@@ -199,6 +204,29 @@ img {
     bottom: 70%;
     z-index: 10;
 }
+
+.answer3 {
+    background: #b3b3b3;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    z-index: 100;
+}
+.triangle3 {
+    margin-top: -10%;
+}
+.triangle3 img {
+    width: 20%;
+    position: relative;
+    left: 80%;
+    bottom: 70%;
+    z-index: 10;
+}
+
+
+
+
+
 
 
 
@@ -245,7 +273,8 @@ img {
     line-height: 20px;
 }
 .event_text {
-    margin-top: 10px;
+    margin: 0 auto;
+    width: 90%;
     margin-bottom: 50px;
 }
 
@@ -273,7 +302,8 @@ img {
     color: #fff;
 }
 #interest {
-    margin-left: 10px;
+    width: 90%;
+    margin: 0 auto;
 }
 #end_ttl{
     padding: 10px 0 0 10px;
