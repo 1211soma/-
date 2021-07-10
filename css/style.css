@@ -5,6 +5,13 @@
     margin: 0;
 }
 
+#key_picuture{
+    position: absolute;
+    top: 20px;
+}
+
+
+
 
 img {
     width: 100%;
@@ -25,6 +32,10 @@ img {
 .menu {
     position: relative;
     width: 100%;
+}
+#now {
+    color: #ffb300;
+    font-weight: bold;
 }
 
 /* モーダルウィンドウ　ここから */
@@ -117,15 +128,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
 #key_text {
     background: #e81818;
     margin-top: -10px;
@@ -139,7 +141,7 @@ img {
     padding-left: 10px;
     font-size: 90%;
 }
-.btn {
+.btn,.btn a{
     background: #ffb300;
     border-radius: 20px;
     color: #fff;
@@ -147,6 +149,7 @@ img {
     margin: 10px auto;
     padding: 10px;
     width: 50%;
+    text-decoration: none;
 }
 .grobal_nav{
     margin: 0 auto;
@@ -494,14 +497,15 @@ img {
 .current_event label::after { /* css ボタンの部分*/
     display: inline-block;
     content: "";
-    background: url(../img/aaa.png);
+    background: url(../img/acdMenu.png) 50% 50%;
     background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100;
     width: 30px;
     height: 30px;
-    position: relative;
-    left: 20px;
-    top: 5px;
-    z-index: 100;
+   
     /* display: inline-block;
     content: '＋';
     font-size: 120%;
@@ -530,6 +534,8 @@ img {
     text-align: center;
     border: 2px solid #000;
     border-bottom: 1px solid #000;
+    position: relative;
+    z-index: 1;
 }
 .past_event input {
     display: none;
@@ -554,10 +560,16 @@ img {
 }
 .past_event label::after { /* css ボタンの部分*/
     display: inline-block;
-    content: '＋';
-    font-size: 120%;
+    content: '';
     color: white;
-    padding-left: 10px;
+    background: url(../img/acdMenu.png) 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
 }
 .past_event a {
     color: #fff;
