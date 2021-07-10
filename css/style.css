@@ -4,7 +4,9 @@
     padding: 0;
     margin: 0;
 }
-
+body {
+    margin-top: 30px;
+}
 #key_picuture{
     position: absolute;
     top: 20px;
@@ -18,9 +20,12 @@ img {
 }
 /* -------headerここから------- */
 #title {
+    width: 100%;
     padding: 10px 20px;
     font-size: 120%;
     position: fixed;
+    top: 0;
+    left: 0;
     background: #928787;
     z-index: 3;
 }
@@ -241,6 +246,14 @@ img {
   overflow:hidden;
   overflow-y:scroll;
 }
+.news_someday {
+    background: #e81818;
+    color: #fff;
+    margin-right: 3px;
+    padding: 0 5px;
+}
+
+
 /* newsbox ここまで */
 
 /* main */
@@ -279,6 +292,10 @@ img {
 .answer1,.answer2,.answer3{
     width: 90%;
     margin: 0 auto;
+}
+.president,.vice_president,.other{
+    color: #fff;
+    font-weight: lighter;
 }
 
 
