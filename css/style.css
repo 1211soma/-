@@ -21,7 +21,7 @@ img {
 /* -------headerここから------- */
 #title {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 120%;
     position: fixed;
     top: 0;
@@ -29,7 +29,15 @@ img {
     background: #ffffff;
     z-index: 3;
     border-bottom: 3px solid #000;
+    display: flex;
 }
+#title img {
+    position: relative;
+    width: 10%;
+    text-align: right;
+    padding-left: 5px;
+}
+
 
 .hbg {
     position: relative;
@@ -42,6 +50,19 @@ img {
 #now {
     color: #ffb300;
     font-weight: bold;
+}
+.btn,.btn a{ /*ボタン*/
+    background: #ffb300;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+    text-decoration: none;
+}
+.btn:hover,.btn a:hover{
+    background-color: #e81818;
 }
 
 /* モーダルウィンドウ　ここから */
@@ -148,16 +169,7 @@ img {
     padding-left: 10px;
     font-size: 90%;
 }
-.btn,.btn a{
-    background: #ffb300;
-    border-radius: 20px;
-    color: #fff;
-    text-align: center;
-    margin: 10px auto;
-    padding: 10px;
-    width: 50%;
-    text-decoration: none;
-}
+
 .grobal_nav{
     margin: 0 auto;
   }
