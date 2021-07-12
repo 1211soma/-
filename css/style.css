@@ -220,20 +220,23 @@ img {
     background-color: #514a4a;
 }
 #top_link li{
-    padding: 15px 0;
-    margin: 20px auto;
-    border-radius: 30px;
+    padding: 10px 0;
+    margin: 20px auto 25px;
+    border-radius: 40px;
     background: #ffb300;
     width: 80%;
     list-style-type: none;
     background: #ffb300 url(../img/border.png) no-repeat 90%;
     box-shadow: #fff 4px 4px 0;
+
 }
 
 #top_link li a{
     text-decoration: none;
-    padding: 10px 0;
+    padding: 5px 0;
     color: #fff;
+    display: block;
+    font-size: 120%;
 }
 
 /* newsboxここから */
@@ -369,13 +372,12 @@ img {
     bottom: 70%;
     z-index: 1;
 }
-
-
-
-
-
-
 /* --------------------Q&Aページ　ここまで------------------ */
+
+
+
+
+
 
 /* --------------活動内容と実績ページ　ここから--------------- */
 #year {
@@ -454,11 +456,6 @@ img {
     padding: 10px;
     width: 90%;
 }
-
-
-
-
-
 /* ------------活動内容と実績ページ　ここまで---------------- */
 
 
@@ -469,6 +466,13 @@ img {
     padding: 10px 5px 10px;
     margin: 70px 0 20px 10px;
     line-height: 20px;
+}
+.p_head {
+    color: #fff;
+    padding: 5px;
+    margin-right: 10px;
+    font-weight: bolder;
+
 }
 #end_text {
     text-align: center;
@@ -496,23 +500,24 @@ img {
 .current_event input {
     display: none;
 }
-.current_event ul {
+.current_event ul{
     background-color: #c3c3c3;
     margin: 0;
-    padding: 0;
     list-style: none;
 }
 .current_event li {
     height: 0;
     padding-left: 30px;
-    overflow: hidden;
-    line-height: 3;
     transition: all 0.5s;
     color: #fff;
+    align-items: center;
 }
+
 #acd-menu_a1:checked~.acd-list_a1 li, #acd-menu_a2:checked~.acd-list_a2 li,
 #acd-menu_a3:checked~.acd-list_a3 li{
-    height: 50px;
+    height: 20px;
+    margin: 0;
+    padding: 15px 20px;
 }
 .current_event label::after { /* css ボタンの部分*/
     display: inline-block;
