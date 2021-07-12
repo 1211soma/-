@@ -56,7 +56,7 @@ img {
     border-radius: 20px;
     color: #fff;
     text-align: center;
-    margin: 10px auto;
+    margin: 50px auto;
     padding: 10px;
     width: 50%;
     text-decoration: none;
@@ -288,13 +288,21 @@ img {
 .top_section h2,.top_section .item_body{
     margin-left: 10px;
 }
-#goal li{
+.goal_text{
     background: #e81818;
     color: #fff;
     text-align: center;
     width: 80%;
     margin: 20px auto;
     padding: 10px 0;
+}
+.goal_img {
+    background: #fff;
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px 0;
+    list-style: none;
 }
 /* --------------------Q&Aページ　ここから------------------------ */
 .query {
@@ -469,7 +477,6 @@ img {
 }
 .p_head {
     color: #fff;
-    padding: 5px;
     margin-right: 10px;
     font-weight: bolder;
 
