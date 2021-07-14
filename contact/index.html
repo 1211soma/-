@@ -21,21 +21,16 @@
             <div class="line mid"></div>
             <div class="line btm"></div>
         </div>
-    </div>
 
-    <div class="menu">
-        <ul class="ulArea off">
-            <li><a href="../index.html">自治会について</a></li>
-            <li><a href="../q&a/index.html">Q&A</a></li>
-            <li><a href="../action&peformance/index.html">活動内容と実績</a></li>
-            <li><a href="../event&plan/index.html">イベント・企画</a></li>
-            <li id="now">お問い合わせ</li>
-        </ul>
-    </div>
-      
-      
-      
-      
+        <div class="menu">
+            <ul class="ulArea off">
+                <li><a href="../index.html">自治会について</a></li>
+                <li><a href="../q&a/index.html">Q&A</a></li>
+                <li><a href="../action&peformance/index.html">活動内容と実績</a></li>
+                <li><a href="../event&plan/index.html">イベント・企画</a></li>
+                <li id="now">お問い合わせ</li>
+            </ul>
+        </div>
         <section id="key_text">
             <h1>
                 お問い合わせ
@@ -46,29 +41,29 @@
             </p>
         </section>
     </header>
+
+
+
+
+
     <main>
         <form action="confilm.php" method="POST">
-            <h2><label for="name">お名前(必須)</label></h2>
-            <input type="text" name="name">　<br>
+            <h2><label>お名前(必須)<input type="text" name="your_name"></label></h2>
             <p class="example_text">例: 自治会 太郎</p>
 
-            <h2><label for="name2">ふりがな(必須)</label></h2>
-            <input type="text" name="name2"> <br>
+            <h2><label>ふりがな(必須)<input type="text" name="furigana"></label></h2>
             <p class="example_text2">例: じちかい　たろう</p>
 
-            <h2><label for="number">学籍番号(必須)</label></h2>
-            <input type="text" name="number"> <br>
+            <h2><label>学籍番号(必須)<input type="text" name="number"></label></h2>
             <p class="example_text3">例: 99WW9999</p>
 
-            <h2><label for="tel">携帯番号(必須)</label></h2>
-            <input type="text" name="tel"> <br>
+            <h2><label>携帯番号(必須)<input type="text" name="tel"></label></h2>
             <p class="example_text4">※希望者本人の携帯番号を入力してください</p>
 
-            <h2><label for="mailAddress">メールアドレス(必須)</label></h2>
-            <input type="text" name="mailAddress"> <br>
+            <h2><label>メールアドレス(必須)<input type="text" name="mailAddress"></label></h2>
             <p class="example_text5">※学校用のメールアドレスを入力してください</p>
 
-            <h2><label for="contact">お問い合わせ内容(必須)</label><br></h2>
+            <h2><label>お問い合わせ内容(必須)</label></h2>
             <p class="example_text6">※具代的でわかりやすい内容を入力してください</p>
             <textarea name="textbox" id="content" cols="39" rows="10"></textarea>     
         </form>

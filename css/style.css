@@ -312,7 +312,6 @@ img {
     border-left: 7px solid #e81818;
     padding: 10px 5px 10px;
     margin: -5px 0 20px 10px;
-    line-height: 20px;
     font-weight: bold;
 }
 .answer1,.answer2,.answer3{
@@ -400,7 +399,7 @@ img {
     padding: 5px 20px;
     text-align: center;
 }
-#someday {
+.someday {
     background: #e81818;
     padding: 3px 1px;
     border-radius: 20px;
@@ -410,7 +409,7 @@ img {
     width: 30%;
     font-size: 80%;
 }
-#event_date {
+.event_date {
     border-left: 7px solid #e81818;
     padding: 10px 5px 10px;
     margin: -5px 0 20px 10px;
@@ -469,7 +468,7 @@ img {
 
 
 /*--------------------イベント・企画ページ　ここから-------------------*/
-#event_plan{
+.event_plan{
     border-left: 7px solid #e81818;
     padding: 10px 5px 10px;
     margin: 70px 0 20px 10px;
