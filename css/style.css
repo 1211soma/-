@@ -4,9 +4,6 @@
     padding: 0;
     margin: 0;
 }
-body {
-    margin-top: 30px;
-}
 #key_picuture{
     position: absolute;
     top: 20px;
@@ -19,24 +16,40 @@ img {
     width: 100%;
 }
 /* ---------------headerここから------------- */
-#title {
-    width: 100%;
-    padding: 10px 15px;
-    font-size: 120%;
+#site_head {
     position: fixed;
-    top: 0;
-    left: 0;
-    background: #ffffff;
+    background-color: #fff;
     z-index: 3;
-    border-bottom: 3px solid #000;
+}
+
+#title-box {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 0 10px 7px 0px;
+    position: fixed;
+    background: #fff;
+    margin-top: -49px;
+}
+#title-box #title{
+    font-size: 100%;
     display: flex;
+
 }
-#title img {
-    position: relative;
-    width: 10%;
-    text-align: right;
-    padding-left: 5px;
+#title-box #title a{
+    text-decoration: none;
+    color: #000;
 }
+#title-box #title span{
+    vertical-align: middle;
+}
+#title-box img{
+    width: 15%;
+    vertical-align: middle;
+}
+
+
 
 
 .hbg {
@@ -47,12 +60,13 @@ img {
     position: relative;
     width: 100%;
 }
-#now {
-    color: #ffb300;
+#now a{
+    color: #e53935;
     font-weight: bold;
 }
+
 .btn,.btn a{ /*ボタン*/
-    background: #bd963d;
+    background: #aca0a0;
     border-radius: 20px;
     color: #fff;
     text-align: center;
@@ -116,7 +130,7 @@ img {
 .line {
     width: 24px;
     height: 2px;
-    background: #ffb300;
+    background: #e53935;
 }
 .top {
     position: absolute;
@@ -154,10 +168,12 @@ img {
 /* hbgメニュー　ボタン　ここまで */
 
 
-
+#key_picture {
+    margin-top: 49px;
+}
 
 #key_text {
-    background: #e81818;
+    background: #e53935;
     margin-top: -10px;
     padding: 30px 10px;
     color: #fff;
@@ -196,8 +212,8 @@ img {
     text-decoration: none;
     color: #fff;
   }
-  .orange{
-    color: #ffb300;
+  .red a{
+    color: #e53935;
   }
   .end_text{
       width: 90%;
@@ -217,16 +233,14 @@ img {
 #top_link {
     text-align: center;
     padding: 20px 0;
-    background-color: #514a4a;
 }
 #top_link li{
     padding: 10px 0;
     margin: 20px auto 25px;
     border-radius: 40px;
-    background: #ffb300;
     width: 80%;
     list-style-type: none;
-    background: #ffb300 url(../img/border.png) no-repeat 90%;
+    background: #aca0a0 url(../img/border.png) no-repeat 90%;
     box-shadow: #fff 4px 4px 0;
 
 }
@@ -240,31 +254,33 @@ img {
 }
 
 /* newsboxここから */
-.box{
-  width:90%;
-  height:180px;
-  padding:20px;
-  background:#ddd;
+.box_news{
+    width:90%;
+    height:180px;
+    padding:20px;
+    background:#aca0a0;
+    overflow-y: scroll;
 }
-.box h2 {
-    color: #e81818;
+.box_news h2 {
+    color: #e53935;
 }
-.box p{
+.box_news p{
     padding: 10px 0;
+    color: #fff;
 }
 .scroll{
-  overflow:scroll;
+    overflow:scroll;
 }
 .scrollx{
-  overflow:hidden;
-  overflow-x:scroll;
+    overflow:hidden;
+    overflow-x:scroll;
 }
 .scrolly{
-  overflow:hidden;
-  overflow-y:scroll;
+    overflow:hidden;
+    overflow-y:scroll;
 }
 .news_someday {
-    background: #e81818;
+    background: #e53935;
     color: #fff;
     margin-right: 3px;
     padding: 0 5px;
@@ -281,7 +297,7 @@ img {
 .top_section h2{
     padding: 50px 0 0px;
     margin-bottom: 20px;
-    border-bottom: 3px solid #e81818;
+    border-bottom: 3px solid #e53935;
     width: 80%;
 }
 
@@ -289,7 +305,7 @@ img {
     margin-left: 10px;
 }
 .goal_text{
-    background: #e81818;
+    background: #e53935;
     color: #fff;
     text-align: center;
     width: 80%;
@@ -311,9 +327,10 @@ img {
 /* --------------------Q&Aページ　ここから------------------------ */
 .query {
     margin: 50px auto;
+    z-index: 1;
 }
 .query_ttl{
-    border-left: 7px solid #e81818;
+    border-left: 7px solid #e53935;
     padding: 10px 5px 10px;
     margin: -5px 0 20px 10px;
     font-weight: bold;
@@ -340,9 +357,9 @@ img {
 }
 .triangle1 img {
     width: 20%;
-    position: relative;
     left: 80%;
     bottom: 70%;
+    position: relative;
     z-index: 1;
 }
 
@@ -383,6 +400,18 @@ img {
     bottom: 70%;
     z-index: 1;
 }
+#end_text_h4{
+    font-size: 110%;
+    margin: 20px 0;
+    text-align: center;
+}
+#end_text_strong{
+    background: linear-gradient(transparent 60%, #e53935 0%) repeat scroll 0 0;
+    font-weight: bolder;
+}
+
+
+
 /* --------------------Q&Aページ　ここまで------------------ */
 
 
@@ -395,7 +424,7 @@ img {
     display: flex;
 }
 #year li {
-    background: #ffb300;
+    background: #aca0a0;
     color: #fff;
     border-radius: 20px;
     list-style-type: none;
@@ -404,7 +433,7 @@ img {
     text-align: center;
 }
 .someday {
-    background: #e81818;
+    background: #e53935;
     padding: 3px 1px;
     border-radius: 20px;
     color: #fff;
@@ -414,7 +443,7 @@ img {
     font-size: 80%;
 }
 .event_date {
-    border-left: 7px solid #e81818;
+    border-left: 7px solid #e53935;
     padding: 10px 5px 10px;
     margin: -5px 0 20px 10px;
     line-height: 20px;
@@ -436,14 +465,14 @@ img {
 }
 .paginate .before,.after{
     list-style-type: none;
-    background: #ffb300;
+    background: #aca0a0;
     margin: 0 auto;
     padding: 10px 30px;
     color: #fff;
 }
 .paginate .now_page{
     list-style-type: none;
-    background: #ffb300;
+    background: #aca0a0;
     margin: 0 auto;
     padding: 10px 30px;
     color: #fff;
@@ -455,11 +484,11 @@ img {
 #end_ttl{
     padding: 10px 0 0 10px;
     margin-bottom: 20px;
-    border-bottom: 3px solid #e81818;
+    border-bottom: 3px solid #e53935;
     width: 80%;
 }
 .form_btn{
-    background: #ffb300;
+    background: #aca0a0;
     border-radius: 20px;
     color: #fff;
     text-align: center;
@@ -473,7 +502,7 @@ img {
 
 /*--------------------イベント・企画ページ　ここから-------------------*/
 .event_plan{
-    border-left: 7px solid #e81818;
+    border-left: 7px solid #e53935;
     padding: 10px 5px 10px;
     margin: 70px 0 20px 10px;
     line-height: 20px;
@@ -496,7 +525,7 @@ img {
     margin: 0 auto;
 }
 .current_event label {
-    background-color: #e81818;
+    background-color: #e53935;
     color: #fff;
     display: block;
     padding: 15px;
@@ -511,7 +540,7 @@ img {
     display: none;
 }
 .current_event ul{
-    background-color: #c3c3c3;
+    background-color: #aca0a0;
     margin: 0;
     list-style: none;
 }
@@ -532,7 +561,7 @@ img {
 .current_event label::after { /* css ボタンの部分*/
     display: inline-block;
     content: "";
-    background: url(../img/acdMenu.png) 50% 50%;
+    background: url(../img/acd_btn.png) 50% 50%;
     background-repeat: no-repeat;
     position: absolute;
     right: 10px;
@@ -552,7 +581,7 @@ img {
     text-decoration: none;
 }
 .current_event a:hover {
-    color: red;
+    color: #e53935;
 }
 
 
@@ -562,7 +591,7 @@ img {
     margin: 0 auto;
 }
 .past_event label {
-    background-color: #e81818;
+    background-color: #e53935;
     color: #fff;
     display: block;
     padding: 15px;
@@ -577,7 +606,7 @@ img {
     display: none;
 }
 .past_event ul {
-    background-color: #c3c3c3;
+    background-color: #aca0a0;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -598,7 +627,7 @@ img {
     display: inline-block;
     content: '';
     color: white;
-    background: url(../img/acdMenu.png) 50% 50%;
+    background: url(../img/acd_btn.png) 50% 50%;
     background-repeat: no-repeat;
     position: absolute;
     right: 10px;
@@ -625,7 +654,7 @@ img {
 
 /*----------お問い合わせフォーム------------*/
 form {
-    margin: 40px 0 20px 20px;
+    margin: 40px auto;
 }
 form p{
     font-size: 90%;
@@ -634,59 +663,27 @@ h3 {
     margin: 0;
 }
 input {
-    margin: 0 auto;
+    display: block;
     width: 60%;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-.example_text{
-    color: #707070;
-    text-align: right;
-    padding-right: 30px;
-    margin: -15px 0;
-}
-.example_text2{
-    color: #707070;
-    text-align: right;
-    padding-right: 30px;
-    margin: -15px 0;
-}
-.example_text3{
-    color: #707070;
-    text-align: right;
-    padding-right: 30px;
-    margin: -15px 0;
-}
-.example_text4{
-    color: #707070;
-    text-align: right;
-    padding-right: 30px;
-    margin: -15px 0 0 0;
-}
-.example_text5{
-    color: #707070;
-    text-align: right;
-    padding-right: 30px;
-    margin: -15px 0 0 0;
-}
-.example_text6{
-    color: #707070;
-    text-align: right;
-    padding-right: 30px;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid;
 }
 
-textarea {
-    margin-left: 20px;
-}
-
-.joining_btn{
-    background: #ffb300;
+.join_btn{
+    background: #aca0a0;
     padding: 10px;
     color: #fff;
     border-radius: 20px;
     margin: 10px auto;
     width: 60%;
     text-align: center;
+}
+textarea {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid #000;
 }
 /*----------お問い合わせフォームここまで-------------*/
 
